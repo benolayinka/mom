@@ -22,16 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  bulmaCarousel.attach('.hero-carousel', {
-  	slidesToScroll: 1,
-	slidesToShow: 1,
-	effect: 'fade',
-	loop: true,
-	navigation: false,
-	navigationKeys: true,
-	autoplay: true,
-	pagination:false,
-	autoplaySpeed: 6000,
-});
+  easy_background("body",
+
+	  {
+		slide: ["assets/img/1.jpg", "assets/img/2.jpg", "assets/img/3.jpg", "assets/img/4.jpg"],
+
+		delay: [5000, 5000, 5000, 5000]
+	  }
+
+	);
 
 });
