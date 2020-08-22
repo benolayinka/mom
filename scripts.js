@@ -21,15 +21,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-
-  easy_background("body",
-
-	  {
-		slide: ["assets/img/1.jpg", "assets/img/2.jpg", "assets/img/3.jpg", "assets/img/4.jpg"],
-
-		delay: [5000, 5000, 5000, 5000]
-	  }
-
-	);
-
 });

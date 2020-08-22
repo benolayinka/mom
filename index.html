@@ -1,23 +1,32 @@
 <!DOCTYPE html>
+
 <html>
   <head>
     <link rel="stylesheet" href="styles.css">
     <script defer src="assets/js/easy_background.min.js"></script>
     <script defer src="scripts.js"></script>
+    <style>
+      a:hover {
+        text-decoration-color: white;
+      }
+      .navbar-menu {
+        background-color: rgba(0,0,0,0) !important;
+      }
+    </style>
   </head>
   <body>
-    <section class="hero is-fullheight">
+    <section id="hero" class="hero is-fullheight">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
-          <nav class="navbar is-transparent is-dark">
+          <nav class="navbar is-transparent is-fixed-top">
             <div class="container">
               <div class="navbar-brand">
                 <a class="navbar-item">
-                  <h2 class="subtitle">
+                  <h2 class="subtitle has-text-white">
                     Jenny's Meadowfoam
                   </h1>
                 </a>
-                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span class="navbar-burger burger has-text-white" data-target="navbarMenuHeroA">
                   <span></span>
                   <span></span>
                   <span></span>
@@ -25,10 +34,13 @@
               </div>
               <div id="navbarMenuHeroA" class="navbar-menu">
                 <div class="navbar-end">
-                  <a class="navbar-item is-active">
+                  <a href="/" class="navbar-item has-text-white is-active">
                     Home
                   </a>
-                  <a class="navbar-item">
+                  <a href="gallery.html" class="navbar-item has-text-white">
+                    Gallery
+                  </a>
+                  <a href="about.html" class="navbar-item has-text-white">
                     About
                   </a>
                 </div>
@@ -36,23 +48,25 @@
             </div>
           </nav>
         </div>
+
+        <!-- Hero head: will stick at the top -->
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="title">
+            <h1 class="title has-text-white">
               Meadowfoam breeding for everyone
             </h1>
-            <h2 class="subtitle">
+            <h2 class="subtitle has-text-white">
               Learn to propagate yourself, or order bespoke varieties
             </h2>
-            <button class="button border-button is-outlined bg-transparent">Contact</button>
+            <button class="button border-button is-outlined bg-transparent has-text-white">Contact</button>
           </div>
         </div>
 
         <!-- Hero footer: will stick at the bottom -->
         <div class="hero-foot">
           <div class="container has-text-centered">
-            <h1 class="title is-6">Crossing plants since 1963</h1>
-            <h2 class="subtitle is-6">© 2020 Jennifer Kling</h2>
+            <h1 class="title is-6 has-text-white">Crossing plants since 1963</h1>
+            <h2 class="subtitle is-6 has-text-white">© 2020 Jennifer Kling</h2>
           </div>
         </div>
     </section>
