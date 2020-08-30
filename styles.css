@@ -1,52 +1,4 @@
 @charset "UTF-8";
-a:hover {
-  text-decoration: underline; }
-
-.bg-transparent {
-  background-color: transparent !important; }
-
-.card {
-  margin-bottom: 5rem; }
-
-.cb-slideshow {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0px;
-  left: 0px; }
-
-.cb-slideshow li span {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  color: transparent;
-  background-size: cover;
-  background-position: 50% 50%;
-  opacity: 0;
-  animation: imageAnimation 20s linear infinite 0s; }
-
-@keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    animation-timing-function: ease-in; }
-  13% {
-    opacity: 1;
-    animation-timing-function: ease-out; }
-  25% {
-    opacity: 1; }
-  38% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-.border-button {
-  border: solid 5px white;
-  transition: border 0.6s linear; }
-
-.border-button:hover {
-  border-color: rgba(255, 255, 255, 0); }
-
 /*! bulma.io v0.9.0 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -7374,3 +7326,51 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
+
+a:hover {
+  text-decoration: underline; }
+
+.bg-transparent {
+  background-color: transparent !important; }
+
+.card {
+  margin-bottom: 5rem; }
+
+.cb-slideshow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px; }
+
+.cb-slideshow li span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 0;
+  animation: imageAnimation 20s linear infinite 0s; }
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in; }
+  13% {
+    opacity: 1;
+    animation-timing-function: ease-out; }
+  25% {
+    opacity: 1; }
+  38% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+.border-button {
+  border: solid 5px white;
+  transition: border 0.6s linear; }
+
+.border-button:hover {
+  border-color: rgba(255, 255, 255, 0); }

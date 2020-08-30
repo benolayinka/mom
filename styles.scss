@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "assets/bulma/sass/utilities/initial-variables.sass";
+
 // Import a Google Font
 // @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 $white: white;
@@ -29,6 +31,63 @@ $navbar-item-hover-background-color: rgba(0,0,0,0);
 // $navbar-background-color: rgba(0,0,0,0.5);
 // $border-light-hover: $white;
 // $link-hover-border: $white;
+
+@import "assets/bulma/bulma.sass";
+
+// @import "assets/bulma/sass/utilities/functions.sass";
+// @import "assets/bulma/sass/utilities/derived-variables.scss";
+// @import "assets/bulma/sass/utilities/animations.sass";
+// @import "assets/bulma/sass/utilities/mixins.sass";
+// @import "assets/bulma/sass/utilities/controls.sass";
+
+// @import "assets/bulma/sass/base/_all";
+
+// // @import "assets/bulma/sass/elements/_all";
+// // @import "assets/bulma/sass/elements/box.sass";
+// @import "assets/bulma/sass/elements/button.sass";
+// @import "assets/bulma/sass/elements/container.sass";
+// @import "assets/bulma/sass/elements/content.sass";
+// @import "assets/bulma/sass/elements/icon.sass";
+// @import "assets/bulma/sass/elements/image.sass";
+// @import "assets/bulma/sass/elements/notification.sass";
+// // @import "assets/bulma/sass/elements/progress.sass";
+// @import "assets/bulma/sass/elements/table.sass";
+// // @import "assets/bulma/sass/elements/tag.sass";
+// @import "assets/bulma/sass/elements/title.sass";
+
+// @import "assets/bulma/sass/elements/other.sass";
+
+// // @import "assets/bulma/sass/form/_all";
+// @import "assets/bulma/sass/form/shared.sass";
+// @import "assets/bulma/sass/form/input-textarea.sass";
+// // @import "assets/bulma/sass/form/checkbox-radio.sass";
+// @import "assets/bulma/sass/form/select.sass";
+// // @import "assets/bulma/sass/form/file.sass";
+// @import "assets/bulma/sass/form/tools.sass";
+
+// // @import "assets/bulma/sass/components/_all";
+// // @import "assets/bulma/sass/components/breadcrumb.sass";
+// @import "assets/bulma/sass/components/card.sass";
+// // @import "assets/bulma/sass/components/dropdown.sass";
+// // @import "assets/bulma/sass/components/level.sass";
+// // @import "assets/bulma/sass/components/list.sass";
+// // @import "assets/bulma/sass/components/media.sass";
+// @import "assets/bulma/sass/components/menu.sass";
+// // @import "assets/bulma/sass/components/message.sass";
+// // @import "assets/bulma/sass/components/modal.sass";
+// @import "assets/bulma/sass/components/navbar.sass";
+// // @import "assets/bulma/sass/components/pagination.sass";
+// // @import "assets/bulma/sass/components/panel.sass";
+// @import "assets/bulma/sass/components/tabs.sass";
+
+// // @import "assets/bulma/sass/grid/_all";
+// @import "assets/bulma/sass/grid/columns.sass";
+// // @import "assets/bulma/sass/grid/tiles.sass";
+
+// // @import "assets/bulma/sass/layout/_all";
+// @import "assets/bulma/sass/layout/hero.sass";
+// @import "assets/bulma/sass/layout/section.sass";
+// @import "assets/bulma/sass/layout/footer.sass";
 
 a:hover {
   text-decoration: underline;
@@ -77,5 +136,3 @@ a:hover {
 }
 
 .border-button:hover { border-color: rgba(255,255,255,0); }
-
-@import "assets/bulma/bulma.sass";
