@@ -10,11 +10,15 @@
     <script defer src="assets/js/easy_background.min.js"></script>
     <script defer src="scripts.js"></script>
     <style>
+      body {
+        text-shadow: 0 0 10px black;
+      }
       a:hover {
-        text-decoration-color: white;
+        text-decoration-color: white !important;
       }
       .navbar-menu {
         background-color: rgba(0,0,0,0) !important;
+        box-shadow: none !important;
       }
     </style>
   </head>
@@ -22,7 +26,7 @@
     <section id="hero" class="hero is-fullheight">
         <!-- Hero head: will stick at the top -->
         <div class="hero-head">
-          <nav class="navbar is-transparent is-fixed-top">
+          <nav class="navbar is-fixed-top">
             <div class="container">
               <div class="navbar-brand">
                 <a class="navbar-item" href="https://bulma.io">
@@ -63,7 +67,7 @@
             <h2 class="subtitle has-text-white">
               Learn to propagate yourself, or order bespoke varieties
             </h2>
-            <button class="button border-button is-outlined bg-transparent has-text-white">Contact</button>
+            <button class="button is-primary is-inverted is-outlined button-hack">Contact</button>
           </div>
         </div>
 
